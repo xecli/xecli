@@ -12,8 +12,8 @@ It includes:
 
 The name reflects its role in the XeLL workflow: it provides the payload and helper assets that XeCLI uses to fetch NAND and keyvault data over the network.
 
-Main XeCLI repo: [https://github.com/SaveEditors/xecli](https://github.com/SaveEditors/xecli)
-Standalone repo: [https://github.com/SaveEditors/XeCLI-XellFetch](https://github.com/SaveEditors/XeCLI-XellFetch)
+Main XeCLI repo: [https://github.com/xecli/xecli](https://github.com/xecli/xecli)
+Standalone repo: [https://github.com/xecli/XeCLI-XellFetch](https://github.com/xecli/XeCLI-XellFetch)
 
 ## Layout
 
