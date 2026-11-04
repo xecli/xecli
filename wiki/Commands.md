@@ -2191,8 +2191,8 @@ Configured Library  auto
 Effective Library   <avatar-library-root>
 Configured Cache    default
 Effective Cache     <config-dir>\avatar-index.v5.json
-Manifest URL        https://raw.githubusercontent.com/SaveEditors/Avatar-Item-Collection/main/avatar-manifest.json
-Content Base URL    https://raw.githubusercontent.com/SaveEditors/Avatar-Item-Collection/main/
+Manifest URL        https://raw.githubusercontent.com/xecli/Avatar-Item-Collection/main/avatar-manifest.json
+Content Base URL    https://raw.githubusercontent.com/xecli/Avatar-Item-Collection/main/
 ```
 
 ### `rgh avatar library set`
@@ -2455,7 +2455,7 @@ rgh xtaf-cli install --archive .\Xtaf-CLI-v1.0.0-windows.zip --sha256 D2C561074E
 rgh xtaf-cli install --url <custom-url> --sha256 <64-hex-sha256>
 ```
 
-The built-in source is `SaveEditors/Xtaf-CLI` tag `v1.0`, asset `Xtaf-CLI-v1.0.0-windows.zip`, authenticated by SHA-256 `D2C561074E55A61CC5D4DA9D3D7B9865EEC7886D2DA90BE49BB7AA8ED02B2E73`. Custom archives and URLs are accepted only with an explicit `--sha256`.
+The built-in source is `xecli/Xtaf-CLI` tag `v1.0`, asset `Xtaf-CLI-v1.0.0-windows.zip`, authenticated by SHA-256 `D2C561074E55A61CC5D4DA9D3D7B9865EEC7886D2DA90BE49BB7AA8ED02B2E73`. Custom archives and URLs are accepted only with an explicit `--sha256`.
 
 ### `rgh xtaf-cli run`
 ```powershell
@@ -2465,7 +2465,7 @@ rgh xtaf-cli run --arg=--help
 Use `--arg=<value>` once per token when the value starts with a dash, or `--arg <value>` for ordinary values. XeCLI passes the exact argument list through to Xtaf-CLI. If the argument set is mount-oriented and WinFsp is missing, XeCLI stops early with a clear installation reminder instead of launching a failing mount attempt.
 
 ## Ghidra Commands
-Ghidra is external and documented in the CLI as `(Free)`. XeCLI does not bundle Ghidra or Java. After `rgh ghidra config --path <dir>`, XeCLI installs the pinned `SaveEditors/XEXLoaderWV` 13.0.0 loader asset into that Ghidra install with `rgh ghidra install-loader`.
+Ghidra is external and documented in the CLI as `(Free)`. XeCLI does not bundle Ghidra or Java. After `rgh ghidra config --path <dir>`, XeCLI installs the pinned `xecli/XEXLoaderWV` 13.0.0 loader asset into that Ghidra install with `rgh ghidra install-loader`.
 
 ### `rgh ghidra config`
 ```powershell
@@ -2487,7 +2487,7 @@ rgh ghidra install-loader --archive .\ghidra_12.0.4_PUBLIC_20260325_XEXLoaderWV.
 rgh ghidra install-loader --url <custom-url> --sha256 <64-hex-sha256>
 ```
 
-The built-in source is owner/repository `SaveEditors/XEXLoaderWV`, tag/version `13.0.0`, filename `ghidra_12.0.4_PUBLIC_20260325_XEXLoaderWV.zip`, and SHA-256 `498B9C2A2430585CC49A13DB33603B6A46CFE84B157985F9BE2C4360F917FA5A`. Custom sources require an explicit hash.
+The built-in source is owner/repository `xecli/XEXLoaderWV`, tag/version `13.0.0`, filename `ghidra_12.0.4_PUBLIC_20260325_XEXLoaderWV.zip`, and SHA-256 `498B9C2A2430585CC49A13DB33603B6A46CFE84B157985F9BE2C4360F917FA5A`. Custom sources require an explicit hash.
 
 Example output:
 
@@ -2536,7 +2536,7 @@ No flagged files found.
 ```
 
 ## IDA Commands
-IDA is external and not bundled by XeCLI. The supported baseline is `IDA Pro 9.3` with `SaveEditors/idaxex` tag `ida-pro-9.3-saveeditors-1`. Legacy support is specifically `IDA Pro 9.1.250226` with `emoose/idaxex` tag `0.42b`, including its authenticated `xex1tool.exe`. Other IDA or loader combinations are outside the supported baseline.
+IDA is external and not bundled by XeCLI. The supported baseline is `IDA Pro 9.3` with `xecli/idaxex` tag `ida-pro-9.3-saveeditors-1`. Legacy support is specifically `IDA Pro 9.1.250226` with `emoose/idaxex` tag `0.42b`, including its authenticated `xex1tool.exe`. Other IDA or loader combinations are outside the supported baseline.
 
 ### `rgh ida config`
 ```powershell
