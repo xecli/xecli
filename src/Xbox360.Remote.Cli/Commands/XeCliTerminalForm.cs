@@ -7495,7 +7495,7 @@ internal sealed class XeCliTerminalForm : Form, IMessageFilter
 		{
 			Process.Start(new ProcessStartInfo
 			{
-				FileName = "https://github.com/SaveEditors/xecli",
+				FileName = "https://github.com/xecli/xecli",
 				UseShellExecute = true
 			});
 		}
