@@ -9,7 +9,7 @@ XeCLI does not bundle Ghidra, IDA Pro, Java, or XEX loader plugins. Reverse-engi
 - Official IDA Pro site: [IDA Pro](https://hex-rays.com/ida-pro)
 - Official Hex-Rays download/account portal: [My Hex-Rays](https://my.hex-rays.com/)
 - Official open-source IDA SDK: [ida-sdk](https://github.com/HexRaysSA/ida-sdk)
-- Maintained Ghidra XEX loader supported by XeCLI: [SaveEditors/XEXLoaderWV](https://github.com/SaveEditors/XEXLoaderWV)
+- Maintained Ghidra XEX loader supported by XeCLI: [xecli/XEXLoaderWV](https://github.com/xecli/XEXLoaderWV)
 - Upstream XEXLoaderWV project: [zeroKilo/XEXLoaderWV](https://github.com/zeroKilo/XEXLoaderWV)
 - Community Xbox reverse-engineering references: [emoose/xbox-reversing](https://github.com/emoose/xbox-reversing/tree/master)
 
@@ -61,7 +61,7 @@ XeCLI does not bundle Ghidra, IDA Pro, Java, or XEX loader plugins. Reverse-engi
 ### Ghidra requirements
 
 - Ghidra is external and not shipped by XeCLI.
-- Ghidra is documented as `(Free)` in the CLI. XeCLI pins the loader integration to `SaveEditors/XEXLoaderWV` tag/version `13.0.0`, asset `ghidra_12.0.4_PUBLIC_20260325_XEXLoaderWV.zip`, SHA-256 `498B9C2A2430585CC49A13DB33603B6A46CFE84B157985F9BE2C4360F917FA5A`.
+- Ghidra is documented as `(Free)` in the CLI. XeCLI pins the loader integration to `xecli/XEXLoaderWV` tag/version `13.0.0`, asset `ghidra_12.0.4_PUBLIC_20260325_XEXLoaderWV.zip`, SHA-256 `498B9C2A2430585CC49A13DB33603B6A46CFE84B157985F9BE2C4360F917FA5A`.
 - Java must be available for the configured Ghidra runtime.
 - `XEXLoaderWV` is required for clean `.xex` imports.
 - After `rgh ghidra config --path <dir>`, XeCLI can install the loader helper for you with `rgh ghidra install-loader`.
@@ -71,7 +71,7 @@ XeCLI does not bundle Ghidra, IDA Pro, Java, or XEX loader plugins. Reverse-engi
 ### Supported baseline
 
 - Supported IDA build: `IDA Pro 9.3`
-- Supported XEX loader build: `SaveEditors/idaxex` tag `ida-pro-9.3-saveeditors-1`, archive SHA-256 `1734277D26FF4985F15931B6855368312EC11D619D53D2C104F9F7C5753BBD7C`.
+- Supported XEX loader build: `xecli/idaxex` tag `ida-pro-9.3-saveeditors-1`, archive SHA-256 `1734277D26FF4985F15931B6855368312EC11D619D53D2C104F9F7C5753BBD7C`.
 - The supported baseline is `IDA Pro 9.3`. Legacy support requires `IDA Pro 9.1.250226` and `emoose/idaxex` tag `0.42b`, asset `idaxex+xex1tool-0.42b_ida91.zip`, SHA-256 `49F7C519C4A0BF7E90AF3411554B00591C0C628676E1CBA62A7EAA6216BDCD89`. Other IDA or loader combinations are outside the documented baseline.
 
 ### IDA command surface
