@@ -8,12 +8,12 @@ using Spectre.Console.Cli;
 namespace Xbox360.Remote.Cli.Commands;
 
 internal static class XtafCliSupportConstants {
-    public const string Owner = "SaveEditors";
+    public const string Owner = "xecli";
     public const string Repository = "Xtaf-CLI";
     public const string ReleaseTag = "v1.0";
     public const string Version = "1.0.0";
     public const string WindowsZipAssetName = "Xtaf-CLI-v1.0.0-windows.zip";
-    public const string WindowsZipUrl = "https://github.com/SaveEditors/Xtaf-CLI/releases/download/v1.0/Xtaf-CLI-v1.0.0-windows.zip";
+    public const string WindowsZipUrl = "https://github.com/xecli/Xtaf-CLI/releases/download/v1.0/Xtaf-CLI-v1.0.0-windows.zip";
     public const string WindowsZipSha256 = "D2C561074E55A61CC5D4DA9D3D7B9865EEC7886D2DA90BE49BB7AA8ED02B2E73";
     public const string WindowsExeSha256 = "78861947CD2F32865F782319EFD5B73E48F9DF4B42364511E593C2A82BDE6D01";
 }
