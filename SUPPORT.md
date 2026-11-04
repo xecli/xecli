@@ -2,7 +2,7 @@
 
 ## Start with the Documentation
 
-The [XeCLI Wiki](https://github.com/SaveEditors/xecli/wiki) covers installation, console setup, commands, FTP prerequisites, integrations, and recovery steps. For common failures, start with [Troubleshooting](https://github.com/SaveEditors/xecli/wiki/Troubleshooting).
+The [XeCLI Wiki](https://github.com/xecli/xecli/wiki) covers installation, console setup, commands, FTP prerequisites, integrations, and recovery steps. For common failures, start with [Troubleshooting](https://github.com/xecli/xecli/wiki/Troubleshooting).
 
 Useful local checks:
 
@@ -16,7 +16,7 @@ rgh ftp check
 
 ## Open an Issue
 
-Use [GitHub Issues](https://github.com/SaveEditors/xecli/issues) for reproducible defects, documentation corrections, and focused feature requests. Before opening an issue, search existing reports and retry with the current public release.
+Use [GitHub Issues](https://github.com/xecli/xecli/issues) for reproducible defects, documentation corrections, and focused feature requests. Before opening an issue, search existing reports and retry with the current public release.
 
 For a defect, include:
 
