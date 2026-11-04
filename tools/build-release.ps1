@@ -55,7 +55,7 @@ $FirstPartyPayloadStagePaths = [ordered]@{
 }
 $FirstPartyPayloadReleaseManifestPath = 'PROVENANCE/CONSOLE-PAYLOADS.sha256'
 $CorrespondingSourceReleasePath = 'PROVENANCE/CORRESPONDING-SOURCE.md'
-$PublicRepositoryUrl = 'https://github.com/SaveEditors/xecli'
+$PublicRepositoryUrl = 'https://github.com/xecli/xecli'
 $script:FirstPartyPayloadManifestRecords = $null
 $script:X360SourceManifestRecords = $null
 $script:PinnedPromotionGitRevision = $null
