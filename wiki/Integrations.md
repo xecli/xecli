@@ -185,7 +185,7 @@ That corpus is intended to be reused by external tools that need:
 
 The hosted collection lives at:
 
-- [SaveEditors/Avatar-Item-Collection](https://github.com/SaveEditors/Avatar-Item-Collection)
+- [xecli/Avatar-Item-Collection](https://github.com/xecli/Avatar-Item-Collection)
 
 Remote consumers should treat the manifest/title-map pair as the primary entry point:
 
