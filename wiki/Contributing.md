@@ -99,4 +99,4 @@ Submitted changes should not include:
 
 - [Documentation Standards](Standards)
 - [Wiki Home](Home)
-- [Repository](https://github.com/SaveEditors/xecli)
+- [Repository](https://github.com/xecli/xecli)
