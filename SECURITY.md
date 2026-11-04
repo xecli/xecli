@@ -11,7 +11,7 @@ Security fixes are made against the current stable `2.0.x` line. Older releases 
 
 ## Report a Vulnerability Privately
 
-Use GitHub's private [Report a vulnerability](https://github.com/SaveEditors/xecli/security/advisories/new) form. This keeps the report and any follow-up discussion private until a fix and disclosure plan are ready. Do not disclose vulnerability details, exploit instructions, sensitive output, or attachments in a public issue.
+Use GitHub's private [Report a vulnerability](https://github.com/xecli/xecli/security/advisories/new) form. This keeps the report and any follow-up discussion private until a fix and disclosure plan are ready. Do not disclose vulnerability details, exploit instructions, sensitive output, or attachments in a public issue.
 
 Include the following in a private report when relevant:
 
