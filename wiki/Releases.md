@@ -27,7 +27,7 @@ The current release uses a self-contained `win-x64` installer and portable ZIP; 
 | `v1.0.1` | Avatar library/install workflows and hardware controls | [Release notes](#v101-avatar-update) |
 | `v1.0.0` | Initial public XeCLI release | [Release notes](#v100-initial-release) |
 
-Published GitHub releases: [All releases](https://github.com/SaveEditors/xecli/releases)
+Published GitHub releases: [All releases](https://github.com/xecli/xecli/releases)
 
 Every v1.x entry below is archived release history. It is retained for reference and is not current installation guidance.
 
