@@ -77,7 +77,7 @@ If no local corpus is available, XeCLI can switch to the hosted GitHub-backed co
 
 Hosted collection:
 
-- [SaveEditors/Avatar-Item-Collection](https://github.com/SaveEditors/Avatar-Item-Collection)
+- [xecli/Avatar-Item-Collection](https://github.com/xecli/Avatar-Item-Collection)
 
 Index cache and working files live under the XeCLI config or cache directories unless overridden.
 
@@ -101,9 +101,9 @@ rgh avatar library show --remote
 ### Save the default collection path
 ```powershell
 rgh avatar library set --path "$env:USERPROFILE\Downloads\Avatar-Item-Collection"
-rgh avatar library set --manifest-url https://raw.githubusercontent.com/SaveEditors/Avatar-Item-Collection/main/avatar-manifest.json
-rgh avatar library set --title-map-url https://raw.githubusercontent.com/SaveEditors/Avatar-Item-Collection/main/avatar-title-map.json
-rgh avatar library set --content-base-url https://raw.githubusercontent.com/SaveEditors/Avatar-Item-Collection/main/
+rgh avatar library set --manifest-url https://raw.githubusercontent.com/xecli/Avatar-Item-Collection/main/avatar-manifest.json
+rgh avatar library set --title-map-url https://raw.githubusercontent.com/xecli/Avatar-Item-Collection/main/avatar-title-map.json
+rgh avatar library set --content-base-url https://raw.githubusercontent.com/xecli/Avatar-Item-Collection/main/
 rgh avatar library set --download-cache "$env:LOCALAPPDATA\XeCLI\cache\avatar\download-cache"
 ```
 
