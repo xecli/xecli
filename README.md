@@ -7,10 +7,6 @@
 </p>
 
 <p align="center">
-  <a href="https://ko-fi.com/xecli"><img src="https://ko-fi.com/img/githubbutton_sm.svg" alt="Support XeCLI on Ko-fi"></a>
-</p>
-
-<p align="center">
   <a href="https://github.com/SaveEditors/xecli/releases">Downloads</a> ·
   <a href="https://github.com/SaveEditors/xecli/wiki">Documentation</a> ·
   <a href="SUPPORT.md">Support</a> ·
@@ -29,8 +25,8 @@ Download XeCLI only from the official [GitHub Releases](https://github.com/SaveE
 
 | Package | Choose it for | System behavior |
 | --- | --- | --- |
-| **Installer** — `XeCLI-2.0.0-win-x64-setup.exe` | A standard installed experience | Creates the XeCLI Start menu entry automatically. XeCLI desktop shortcut creation and adding `rgh` to `PATH` are optional. Installed-mode state uses Windows profile folders by default. |
-| **Portable ZIP** — `XeCLI-2.0.0-win-x64.zip` | A movable or self-contained folder | Extract and run `rgh.exe` or `XeTerminal.exe`. It performs no installation or `PATH` changes and stores state under the package-local `UserData` folder by default. |
+| **Installer**: `XeCLI-2.0.0-win-x64-setup.exe` | A standard installed experience | Creates the XeCLI Start menu entry automatically. XeCLI desktop shortcut creation and adding `rgh` to `PATH` are optional. Installed-mode state uses Windows profile folders by default. |
+| **Portable ZIP**: `XeCLI-2.0.0-win-x64.zip` | A movable or self-contained folder | Extract and run `rgh.exe` or `XeTerminal.exe`. It performs no installation or `PATH` changes and stores state under the package-local `UserData` folder by default. |
 
 The installer defaults to `%LOCALAPPDATA%\Programs\XeCLI` for the current user or `%ProgramFiles%\XeCLI` for all users; either location can be changed in setup.
 
@@ -116,5 +112,6 @@ Portable mode keeps configuration, cache, logs, and default captures under `User
 - Read [SUPPORT.md](SUPPORT.md) before opening a [GitHub issue](https://github.com/SaveEditors/xecli/issues).
 - Report security concerns through the private process described in [SECURITY.md](SECURITY.md); never place secrets or sensitive console files in a public issue.
 - Contributions are welcome under [CONTRIBUTING.md](CONTRIBUTING.md).
+- If XeCLI saves you time, you can support development on [Ko-fi](https://ko-fi.com/xecli).
 
 XeCLI is licensed under the [GNU General Public License v3.0](LICENSE). Dependency and bundled-component provenance is documented in [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
