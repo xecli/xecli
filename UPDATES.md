@@ -72,4 +72,4 @@ XeCLI v2.0.0 brings the command-line toolkit and XeTerminal desktop workspace to
 - Portable mode performs no installation or `PATH` changes and stores configuration, cache, logs, and default captures under package-local `UserData`. In either mode, `XECLI_HOME` overrides the default state roots with the directory it names.
 - Public v2.0.0 packages are intentionally unsigned. Windows may show **Unknown Publisher** or a SmartScreen warning; verify each download against its published `.sha256` file before running it.
 
-See the [XeCLI Wiki](https://github.com/SaveEditors/xecli/wiki) for setup, exhaustive command documentation, console requirements, and troubleshooting.
+See the [XeCLI Wiki](https://github.com/xecli/xecli/wiki) for setup, exhaustive command documentation, console requirements, and troubleshooting.
