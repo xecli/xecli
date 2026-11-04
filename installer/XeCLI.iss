@@ -32,9 +32,9 @@ AppVerName=XeCLI {#AppVersion} (Legacy 32-bit)
 AppVerName=XeCLI {#AppVersion}
 #endif
 AppPublisher=SaveEditors
-AppPublisherURL=https://github.com/SaveEditors/xecli
-AppSupportURL=https://github.com/SaveEditors/xecli/issues
-AppUpdatesURL=https://github.com/SaveEditors/xecli/releases
+AppPublisherURL=https://github.com/xecli/xecli
+AppSupportURL=https://github.com/xecli/xecli/issues
+AppUpdatesURL=https://github.com/xecli/xecli/releases
 SetupIconFile=assets\xecli.ico
 DefaultDirName={code:GetDefaultDir}
 DisableProgramGroupPage=yes
