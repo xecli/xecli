@@ -234,9 +234,9 @@ rgh screenshot --out .\screen.png
 ```
 
 ## Release and Documentation Entry Points
-- [Repository](https://github.com/SaveEditors/xecli)
-- [GitHub Wiki](https://github.com/SaveEditors/xecli/wiki)
-- [Latest Release](https://github.com/SaveEditors/xecli/releases/latest)
+- [Repository](https://github.com/xecli/xecli)
+- [GitHub Wiki](https://github.com/xecli/xecli/wiki)
+- [Latest Release](https://github.com/xecli/xecli/releases/latest)
 - [Support XeCLI](https://ko-fi.com/xecli)
 
 ## Legal
