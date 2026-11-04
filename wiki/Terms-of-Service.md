@@ -6,7 +6,7 @@ These terms describe optional services, integrations, and project-operated distr
 
 ## 1. Software License Controls
 
-XeCLI application source is licensed under the GNU General Public License version 3, provided in the repository `LICENSE` file. Separately bundled components retain the licenses identified in the repository's [Third-Party Notices](https://github.com/SaveEditors/xecli/blob/main/THIRD-PARTY-NOTICES.md), and those terms control the corresponding components.
+XeCLI application source is licensed under the GNU General Public License version 3, provided in the repository `LICENSE` file. Separately bundled components retain the licenses identified in the repository's [Third-Party Notices](https://github.com/xecli/xecli/blob/main/THIRD-PARTY-NOTICES.md), and those terms control the corresponding components.
 
 The GPLv3 grants the rights to run, study, modify, and redistribute the covered software subject to its terms. Merely receiving or running the software does not require acceptance of these service terms. Nothing on this page imposes an additional restriction on GPLv3 rights, source availability, permitted fields of use, or redistribution.
 
@@ -59,5 +59,5 @@ The published version of this page is the current description for optional proje
 
 ## 10. Contact
 
-- Repository: https://github.com/SaveEditors/xecli
-- Issues: https://github.com/SaveEditors/xecli/issues
+- Repository: https://github.com/xecli/xecli
+- Issues: https://github.com/xecli/xecli/issues
