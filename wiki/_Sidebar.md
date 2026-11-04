@@ -31,8 +31,8 @@
 
 ## Quick Links
 
-- [Latest Release](https://github.com/SaveEditors/xecli/releases/latest)
-- [Repository](https://github.com/SaveEditors/xecli)
+- [Latest Release](https://github.com/xecli/xecli/releases/latest)
+- [Repository](https://github.com/xecli/xecli)
 
 ## Legal
 - [Terms of Service](Terms-of-Service)
