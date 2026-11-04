@@ -5,7 +5,7 @@ using System.Text.Json;
 namespace Xbox360.Remote.Cli.Avatar;
 
 internal static class AvatarRemoteService {
-    private const string DefaultRepoOwner = "SaveEditors";
+    private const string DefaultRepoOwner = "xecli";
     private const string DefaultRepoName = "Avatar-Item-Collection";
     private const string DefaultBranch = "main";
 
