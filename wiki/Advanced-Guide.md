@@ -205,7 +205,7 @@ For example, if Ghidra shows `0x82001234`, the Ghidra base is `0x82000000`, and 
 `rgh xex map` does not need a console connection. It only uses the local XEX file plus the Ghidra base you provide. If you are working from a live module base on a connected console, use the runtime module metadata or live memory workflow instead of the offline mapper.
 
 ### Ghidra headless pipeline
-Ghidra is external and documented in the CLI as `(Free)`. XeCLI installs the pinned `SaveEditors/XEXLoaderWV` 13.0.0 loader asset after you configure the tool path; custom archives or URLs require an explicit SHA-256.
+Ghidra is external and documented in the CLI as `(Free)`. XeCLI installs the pinned `xecli/XEXLoaderWV` 13.0.0 loader asset after you configure the tool path; custom archives or URLs require an explicit SHA-256.
 
 ```powershell
 rgh ghidra config --path "C:\Tools\ghidra" --java "C:\Java"
