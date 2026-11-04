@@ -36,7 +36,7 @@ internal static class ReverseEngineeringSupportConstants {
             "ida-pro-9.3-saveeditors-1",
             "ida-pro-9.3-saveeditors-1",
             "idaxex-ida-pro-9.3-saveeditors-1.zip",
-            "https://github.com/SaveEditors/idaxex/releases/download/ida-pro-9.3-saveeditors-1/idaxex-ida-pro-9.3-saveeditors-1.zip",
+            "https://github.com/xecli/idaxex/releases/download/ida-pro-9.3-saveeditors-1/idaxex-ida-pro-9.3-saveeditors-1.zip",
             "1734277D26FF4985F15931B6855368312EC11D619D53D2C104F9F7C5753BBD7C",
             "13F73208707B5736666930C46A3F9A5EC213D38A56917247A4BCFF15A76226A0",
             "IDA Pro 9.3",
@@ -68,12 +68,12 @@ internal static class ReverseEngineeringSupportConstants {
     };
 
     public const string KnownIdaxex43DllSha256 = "DA2BC0245A3A06721CCE3804777D63E31B3CF33A4507A1B3B07A966B16F09030";
-    public const string GhidraLoaderOwner = "SaveEditors";
+    public const string GhidraLoaderOwner = "xecli";
     public const string GhidraLoaderRepository = "XEXLoaderWV";
     public const string GhidraLoaderTag = "13.0.0";
     public const string GhidraLoaderVersion = "13.0.0";
     public const string GhidraLoaderArchiveFileName = "ghidra_12.0.4_PUBLIC_20260325_XEXLoaderWV.zip";
-    public const string GhidraLoaderArchiveUrl = "https://github.com/SaveEditors/XEXLoaderWV/releases/download/13.0.0/ghidra_12.0.4_PUBLIC_20260325_XEXLoaderWV.zip";
+    public const string GhidraLoaderArchiveUrl = "https://github.com/xecli/XEXLoaderWV/releases/download/13.0.0/ghidra_12.0.4_PUBLIC_20260325_XEXLoaderWV.zip";
     public const string GhidraLoaderArchiveSha256 = "498B9C2A2430585CC49A13DB33603B6A46CFE84B157985F9BE2C4360F917FA5A";
     public const string GhidraOfficialUrl = "https://ghidra-sre.org/";
     public const string IdaOfficialUrl = "https://hex-rays.com/ida-pro";
