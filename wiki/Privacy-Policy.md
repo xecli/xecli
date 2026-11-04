@@ -132,7 +132,7 @@ Continued use of XeCLI after an update means you accept the revised policy.
 
 Project and privacy contact:
 
-- Repository: https://github.com/SaveEditors/xecli
-- Issues: https://github.com/SaveEditors/xecli/issues
+- Repository: https://github.com/xecli/xecli
+- Issues: https://github.com/xecli/xecli/issues
 
 Do not include passwords, keys, dumps, unredacted diagnostics, or other sensitive data in a public issue. Remove secrets and review attachments before posting.
