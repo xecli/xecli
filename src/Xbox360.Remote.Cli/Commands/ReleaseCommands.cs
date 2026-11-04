@@ -157,7 +157,7 @@ internal static class ReleaseCheckEngine {
     private const string ReleaseManifestFileName = "release-manifest.json";
     private const string FirstPartyPayloadManifestPath = "PROVENANCE/CONSOLE-PAYLOADS.sha256";
     private const string CorrespondingSourceNoticePath = "PROVENANCE/CORRESPONDING-SOURCE.md";
-    private const string PublicRepositoryUrl = "https://github.com/SaveEditors/xecli";
+    private const string PublicRepositoryUrl = "https://github.com/xecli/xecli";
     private static readonly HashSet<string> RecognizedReleaseKinds = new(StringComparer.Ordinal) {
         "local-unsigned",
         "public-unsigned",
